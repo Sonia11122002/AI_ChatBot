@@ -10,5 +10,5 @@ llmmodel = HuggingFaceEndpoint(
 )
 
 model = ChatHuggingFace(llm=llmmodel)
-result = model.invoke("Capital of Japan?")
+result = model.invoke("Capital of india?")
 print(result.content)
